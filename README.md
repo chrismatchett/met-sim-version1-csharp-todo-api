@@ -13,7 +13,7 @@ We had to work around the Met's restrictions of not allowing users to install sy
 * We installed .net7 using Microsoft's dotnet-install.ps1 script
 * We created a batch file to ensure VSCode was not using old versions of dotnet.
 
-```
+```bat
 set DOTNET_ROOT=C:\Users\<user>\AppData\Local\Microsoft\dotnet\
 code
 ```
