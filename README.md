@@ -14,6 +14,6 @@ We had to work around the Met's restrictions of not allowing users to install sy
 * We created a batch file to ensure VSCode was not using old versions of dotnet.
 
 ```
-set DOTNET_ROOT=C:\Users\CMatchett\AppData\Local\Microsoft\dotnet\
+set DOTNET_ROOT=C:\Users\<user>\AppData\Local\Microsoft\dotnet\
 code
 ```
